@@ -14,14 +14,14 @@ export const User = (props) => {
                 <img src={imgBg} className="user__bg" alt="" />
                 <img src={props.userImg} className="user__photo" alt="User" />
                 <div className="user__arrows">
-                    <div>
+                    <div data-arrow="left" onClick={props.onClick}>
                         <img
                             className="user__arrows__arrow"
                             src={arrowLeft}
                             alt=""
                         />
                     </div>
-                    <div>
+                    <div data-arrow="right" onClick={props.onClick}>
                         <img
                             className="user__arrows__arrow"
                             src={arrowRight}

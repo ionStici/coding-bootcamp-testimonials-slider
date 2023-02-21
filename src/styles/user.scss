@@ -71,6 +71,7 @@
         &__arrow {
             width: 9px;
             height: 14px;
+            user-select: none;
         }
     }
 
@@ -80,6 +81,7 @@
         text-align: center;
         padding: 0 8px;
         position: relative;
+        height: 254px;
 
         div {
             margin-top: 19px;
