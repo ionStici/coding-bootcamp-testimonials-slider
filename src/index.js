@@ -39,7 +39,7 @@ class App extends React.Component {
             });
         }
 
-        if (target.dataset.arrow === "left") {
+        if (btn.dataset.arrow === "left") {
             this.setState({
                 user: {
                     name: userData.tanya.name,
